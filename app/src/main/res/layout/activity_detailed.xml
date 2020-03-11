@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".DetailedActivity">
+
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#FF006666"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/add_number_img"
+        android:layout_toLeftOf="@+id/add_number_img"
+        android:text="@string/phone"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/add_number_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_add_circle_outline_black_24dp"
+        android:contentDescription="@string/addnumber" />
+
+    <ListView
+        android:id="@+id/number_lv"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/add_number_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00796B"
+        android:dividerHeight="1dp"
+        />
+</RelativeLayout>

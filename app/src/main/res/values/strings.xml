@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ContactsProvider</string>
+    <string name="phone">Phone</string>
+    <string name="phoneimage">phoneImage</string>
+    <string name="messageimage">messageimage</string>
+    <string name="addnumber">addNumber</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_new_number">add new number</string>
+    <string name="update_name">Update name</string>
+    <string name="save_updated_name">Save</string>
+    <string name="cancel_updated_name">Cancel</string>
+</resources>
